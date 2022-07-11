@@ -1,0 +1,42 @@
+{
+    "name": "Users",
+    "columns": [
+        "id",
+        "first_name",
+        "last_name",
+        "middle_name"
+    ],
+    "auto_increment_column": "id",
+    "flags": "if not exists",
+    "data": {
+        "id": {
+            "type": "integer",
+            "tag": "AUTO_INCREMENT",
+            "values": [
+                0,
+                1
+            ]
+        },
+        "first_name": {
+            "type": "string",
+            "values": [
+                "Name1",
+                "Name2"
+            ]
+        },
+        "last_name": {
+            "type": "string",
+            "values": [
+                "LastName1",
+                "LastName2"
+            ]
+        },
+        "middle_name": {
+            "type": "string",
+            "values": [
+                "MiddleName1",
+                "MiddleName2"
+            ]
+        }
+    }
+}
